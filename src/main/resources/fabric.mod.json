@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fpshelper",
+  "version": "${version}",
+  "name": "FPS HELPER",
+  "description": "Configurable on-screen arrows pointing toward players and mobs.",
+  "authors": ["Sigma"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.sigma.fpshelper.FPSHelperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
